@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como usar tags</title>
+</head>
+<body>
+    <h1>Aprendendo Tags!</h1>
+    <h2>O básico</h2>
+    <p>Dentro de uma formatação de texto de um site em HTML podemos usar dezenas de tags para nos ajudar com a construção do nosso site. Como por exemplo a tag "p" que serve para que nós possamos criar parágrafos como esse.</p>
+
+    <p>Mas se quisermos fazer uma quebra de texto intencional, temos que usar a tag br <br> para que assim nosso texto seja quebrado em outra linha. <br> É ideal usar essa tag de forma estratégica para que o seu parágrafo não fique ruim. </p>
+
+    <p> Existem duas formas de colocarmos um texto em <b>negrito</b>. Podemos usar a tag "b" <b>que é mais antiga tem uma semântica inferior</b>. Ou podemos usar a tag "strong" <strong>que tem uma semântica melhor e mais atual</strong></p>
+
+    <p>Também podemos deixar um textgo em <em>itálico</em>, e tem duas formas de fazer isso. Podemos usar a forma antiga com a tag "i" <i>que também tem uma semântica inferiror</i>, ou podemos usar a tag "em" <em>que tem uma melhor semântica</em>.</p>
+
+    <p>Por fim, iremos aprender as tags "sup" e "sub", que se referem a superiror e inferiror. Ou seja, elas dizem onde aquele caracter deve ficar, como em "Minha casa tem 80m<sup>2</sup>" e em "A fórmula da água é H<sub>2</sub>O".</p>
+
+    <h3>Por hoje é isso!! Obrigado por acompanhar.</h3>
+</body>
+</html>
