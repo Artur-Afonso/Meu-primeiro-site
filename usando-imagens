@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Imagens</title>
+</head>
+<body>
+    <h1>Como adicionar imagens ao site??</h1>
+    <p>A grande maioria das páginas da web que vemos hoje em dia faz uso de imagens para poder reprentar o assunto do qual ela está falando, mas como fazer isso??</p>
+    <p>É até simples na verdade, a linguagem HTML possui tags que irão nos ajudar a lidar com qualquer imagem que queiramos utilizar, e para isso utilizamos a tag "img"<br>que significa "image". Essa tag vai pedir dois parâmetros, sendo eles, a url da imagem ou a pasta em que ela está localizada ("imagens/escritório.jfif" como no nosso<br>exemplo), e um pequeno texto descritivo para auxiliar as pessoas que tem alguma deficiência visual ou simplesmente não conseguem carregar a imagem.</p>
+    <p>Esse pequeno exemplo é o suficiente para que possamos aprender como trabalhar com imagens dentro de um site.</p>
+    <img src="https://admin.archshop.com.br/uploads/5_dicas_para_montar_seu_home_office_2b70615d54.jpg" alt="Pequeno escritório individual com um sofá, uma cadeira, mesa, armários e quadros nas paredes.">
+    <hr>
+    <h3>Precauções ✋</h3>
+    <p>O tamanho das imagens irá influenciar diratamente a velocidade de carregamento da página, e por isso devemos sempre buscar imagens leves e mais fáceis de<br>serem carregadas. Para isso, podemos diminuir a resoluação da imagem, diminuir a qualidade ou diminuir o tamanho da imagem, para que assim o arquivo fique <br> mais leve e possa ser acessada na maioria das situações.</p>
+
+    <h4>Isso é o que temos por hoje, obrigado por acompanhar!!</h4>
+    <h5>Direitos de imagem reservados para ArchShop.</h5>
+</body>
+</html>
