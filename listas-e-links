@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entendendo Links e Listas</title>
+</head>
+<body>
+<h1>Como adicionar links e listas??</h1>
+
+<p>Uma característica que vemos em
+   vários sites é a adição de listas
+    e links, que tornam os sites mais
+    dinâmicos e agradáveis aos usuários
+    melhorando a experiência deles por
+    conta disso</p>
+
+<hr>
+
+<h2>Listas</h2>
+
+<p>As vezes quando visitamos um página na web iremos encontrar uma lista nos mostrando uma sequência de itens ou tarefas organizadas em sequência ou não, como acontece em uma receita <br> de bolo ou então uma lista de compras de um mercado. Se quisermos adicionar isso ao nosso site, devemos fazer o seguinte:</p>
+
+<p>Para criar uma lista de itens ordenados, seguindo uma sequência, utilizamos a tag <strong>"ol"</strong> que significa lista ordenada ou <em>"ordered list"</em> e assim dar início a uma lista com itens em sequência. <br> Algo importante para ressaltar é que podemos definir como será o estética dessa lista onde podemos criar listas.
+
+    <ol type="1"><li><strong>Numéricas</strong></li></ol>
+    <ol type="A"><li><strong>Alfabéticas maiúsculas</strong></li></ol>
+    <ol type="a"><li><strong>Alfabética minúsculas</strong></li></ol>
+    <ol type="I"><li><strong>Números romanos maiúsculos</strong></li></ol>
+    <ol type="i"><li><strong>Números romanos minúsculos</strong></li></ol>
+
+Também podemos decidir onde essa lista irá começar, como:
+
+    <ol start="5">
+    <li>sabão</li>
+    <li>papel higiênico</li>
+    <li>pasta de dente</li>
+    <li>shampoo</li>
+    </ol>
+</p>
+
+<hr>
+<h2>Links</h2>
+
+<p>Em vários sites que acessamos na internet podemos encontrar um link com alguma relação ao conteúdo que estamos vendo e que vão nos levar a outro site,mas como fazer isso? Para adicionar um link <br> devemos usar a tag "a", ele nos dara o atributo "href" que é onde iremos adicionar o link que queremos. Importante dizer que conseguimos atribuir o link a uma palavra do nosso parágrafo, como <br> por exemplo: "Estou aprendendo sobre programação através da <a target="blank" rel="external" href="http://www.alura.com.br"><strong>Alura</strong></a>".</p>
+
+<p>Ainda podemos unir essas duas ferramentas poderosas e utiliza-las ao mesmo tempo. Digamos que estamos montando uma página que vai recomendar outros sites para o usuário, ficaria algo parecido com isso:</p>
+
+<ul type="disc">
+    <li><a href="https://www.globo.com/" target="blank" rel="external"> Globo</a></li>
+    <li><a href="https://record.r7.com/>" target="blank" rel="external"> Record</a></li>
+    <li><a href="https://www.sbt.com.br/>" target="blank" rel="external"> SBT</a></li>
+    <li><a href="https://cultura.uol.com.br/>" target="blank" rel="external"> Cultura</a></li>
+</ul>
+
+<P>E assim se encerra a primeira parte dos estudos sobre como adicionar links e listas em um site.</P>
+</body>
+</html
