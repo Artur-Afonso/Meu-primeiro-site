@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Semântica</title>
+</head>
+<body>
+    <header>
+        <h1>A importância do uso da Semântica</h1>
+    </header>
+
+        <hr>
+
+    <main>
+        <section>
+            <p>Recentemente a semântica vem sendo um assunto muito tratado na área de programação e tem se popularizado, mas afinal de contas do que se refere a Programação Semântica?</p>
+            <p>
+            Nada mais é do que escrever as linhas de código de uma forma que seja mais simples e dinâmica para que os navegadores processem as informações mais rapidamente, além disso, ela é uma forma de trazer mais acessibilidade para os usuários da web pois, a semântica faz com que programas para ler a tela, usados por pessoas com deficiência visual, façam uma melhor leitura do conteúdo e ajudem na compreensão da página.
+            </p>
+        </section> 
+
+        <section>
+            <p>Com a evolução da linguagem HTML algumas tags semânticas foram criadas e vem sendo usadas cada vez mais enquanto as tags sem semântica estõa caindo em desuso. Aqui vai uma lista de algumas tags semânticas e suas funcionalidades</p>
+            <ul>
+                <li><strong>&lt;strong&gt;:</strong> usada para formatar o texto em negrito;</li>
+                <li><strong>&lt;em&gt;:</strong> usada para formatar o texto em itálico;</li>
+                <li><strong>&lt;section&gt;:</strong> usada para criar blocos de conteúdo dentro da página;</li>
+                <li><strong>&lt;header&gt;:</strong> usada par criar um cabeçalho com a informações de destaque;</li>
+                <li><strong>&lt;footer&gt;:</strong> usada para criar um rodapé com algumas informações adicionais;</li>
+                <li>Entre outros</li>
+            </ul>
+        </section>
+<hr>
+        <section>
+            <p>As imagens também possuem tags especiais voltadas para elas, como é o caso da tag "<strong>&lt;picture&gt;</strong>", que ajuda o navegador a processar a existência de uma imagem que vem a seguir. Ela conta com o atributo "<strong>&lt;figcaption&gt;</strong>" que serve como um auxílio descritivo para as imagens. <br>
+             Vejamos um exemplo:
+<br><br>
+                <picture>
+                    <img src="parquinho.jpg" alt="Foto de um parque com muitas árvores e com um solo cheio de grama">
+                    <figcaption>Parque com grande área verde</figcaption>
+                </picture>
+<br>
+            Essa imagem foi adicionada à página através do uso da tag <strong>&lt;picture&gt;</strong>, isso pode ser observado na opção "<em>inspecionar</em>" clicando com o botão direito do mouse na página.
+            <br>
+            Estes foram pequenos exemplos de algumas tags, ainda existem muitas outras tags para se descobrir, se tiver mais curiosidade clique em <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements" target="_blank" rel="external">saiba mais!</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>Fique atento para mais novidades!!</p>
+    </footer>
+</body>
+</html>
